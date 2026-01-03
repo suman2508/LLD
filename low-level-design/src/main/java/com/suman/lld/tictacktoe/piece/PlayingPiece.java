@@ -5,5 +5,5 @@ public abstract class PlayingPiece {
     char symbol;
 
     abstract PieceType getType();
-
+    public abstract char getSymbol();
 }

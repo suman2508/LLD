@@ -11,4 +11,9 @@ public class PieceO extends PlayingPiece {
         return this.type;
     }
 
+    @Override
+    public char getSymbol() {
+        return this.symbol;
+    }
+
 }
